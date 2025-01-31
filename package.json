@@ -1,0 +1,32 @@
+{
+  "name": "film_fusion_ai",
+  "description": "https://scrimba.com/intro-to-dall-e-and-gpt-vision-c036/~09/s0m0in18bv/head",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "openai": "4.20.0",
+    "vite": "latest"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VirginieLemaire/film_fusion_AI_generated_posters.git"
+  },
+  "keywords": [
+    "openai",
+    "ai"
+  ],
+  "author": "Virginie Lemaire, Scrimba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VirginieLemaire/film_fusion_AI_generated_posters/issues"
+  },
+  "homepage": "https://github.com/VirginieLemaire/film_fusion_AI_generated_posters#readme"
+}
