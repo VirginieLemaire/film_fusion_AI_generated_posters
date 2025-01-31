@@ -1,12 +1,17 @@
+:root {
+  --color-red: #D51919;
+  --color-dark-red: #790909;
+  --color-dark-grey: #1D1F20;
+}
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: #1D1F20; 
+  background: var(--color-dark-grey); 
   padding-bottom: 20px;
-  color: #222;
+  color: var(--color-dark-grey);
 }
 
 .container {
@@ -25,12 +30,12 @@ body {
 h1 {
   font-size: 3.75rem;
   font-family: 'Bebas Neue', sans-serif;
-  color: #D51919;
+  color: var(--color-red);
   margin: 0;
 }
 
 .subtitle {
-  color: #264653;
+  color: var(--color-dark-grey);
   font-size: 20px;
   margin: 0 0 32px;
 }
@@ -53,7 +58,7 @@ select {
   flex: 1;
   min-width: 140px;
   padding: 10px;
-  border: 2px solid #D51919;
+  border: 2px solid var(--color-red);
   background: #f0f0f0;
   border-radius: 4px;
   box-sizing: border-box;
@@ -61,7 +66,7 @@ select {
 
 button {
   border: none;
-  background: #D51919;
+  background: var(--color-red);
   color: white;
   padding: 10px 20px;
   cursor: pointer;
@@ -70,7 +75,7 @@ button {
 }
 
 button:hover {
-  background: #790909;
+  background: var(--color-dark-red);
 }
 
 .poster-output {
@@ -100,6 +105,25 @@ img {
     clip: rect(0, 0, 0, 0);
     border: 0;
     white-space: nowrap;
+}
+
+#loading {
+  display: none;
+  font-size: 1.5em;
+  color: #555;
+  text-align: center;
+}
+.spinner {
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: var(--color-dark-red);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
 }
 
 @media (max-width: 600px) {

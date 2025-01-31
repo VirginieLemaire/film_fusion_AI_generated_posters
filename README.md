@@ -1,6 +1,8 @@
-# film_fusion_AI_generated_posters
+# Film fusion : AI generated posters
 
 A [Scrimba's Intro to DALL-E & Vision course](https://scrimba.com/intro-to-dall-e-and-gpt-vision-c036) challenge to generate a poster of a movie in a choosen artistic style.
+
+<video src="./medias/demo.mp4" height="360" controls></video>
 
 ## Requirements
 - An openAI API account with some credits
