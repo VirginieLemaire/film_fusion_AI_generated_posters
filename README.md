@@ -2,7 +2,7 @@
 
 A [Scrimba's Intro to DALL-E & Vision course](https://scrimba.com/intro-to-dall-e-and-gpt-vision-c036) challenge to generate a poster of a movie in a choosen artistic style.
 
-<video src="./medias/demo.mp4" height="360" controls></video>
+[!demo](https://github.com/user-attachments/assets/1b9ef3bf-4889-479b-9b38-5e53bf5560f6)
 
 ## Requirements
 - An openAI API account with some credits
